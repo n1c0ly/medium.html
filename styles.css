@@ -158,13 +158,19 @@ main button a {
 .about{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-right: 10%;
+    justify-content: start;
+   gap: 10%;
+   color: white;
    
+}
+
+.space{
+    height: 70px;
 }
 
 .textAbout{
     font-size: 40px;
     width: 630px;
     color: white;
+ 
 }
