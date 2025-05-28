@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
@@ -10,7 +9,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     width: 100%;
     background-color: black;
 }
@@ -19,25 +18,35 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 53%;
     height: 150px;
     color: white;
+    width: 100%;
 }
+
+header h1 {
+    padding-left: 5%;
+}
+
+
 
 nav {
     display: flex;
-    gap: 90px;
+    align-items: center;
+    justify-content: end;
+    gap: 5rem;
+    width: 100%;
+    padding-right: 5%;
 }
 
 nav a {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     color: white;
     font-size: 20px;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,31 +55,40 @@ main{
     padding-top: 5%;
 }
 
-main p{
+main p {
     display: flex;
-   margin-bottom: auto;
+    margin-bottom: auto;
     margin-right: auto;
     padding-left: 5%;
     font-size: 24px;
-    width: 680px;
+    width: 52%;
     padding-top: 5%;
 }
 
-main h1{
-    font-size: 400px;
+main h1 {
+    font-size: 18rem;
     z-index: 2;
     position: absolute;
-    height: 700px;
+    height: 600px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
-main h2{
-    font-size: 380px;
+main h2 {
+    font-size: 15rem;
     z-index: 2;
     padding-top: 20%;
-    position: absolute; 
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
-main button{
+main button {
+    margin-left: 40%;
     width: 260px;
     height: 72px;
     border: none;
@@ -82,23 +100,23 @@ main button a {
     font-weight: 550;
 }
 
-.mainUp{
+.mainUp {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     margin-right: auto;
 }
 
-.mainUp img{
-    display: flex;
-    align-items: end;
-    justify-content: end;
+
+
+.mainUp img {
     margin-left: auto;
+    width: 27rem;
 }
 
-.mainDown{
+.mainDown {
     width: 100%;
     display: flex;
     align-items: start;
@@ -106,13 +124,13 @@ main button a {
     flex-direction: column;
 }
 
-.mainDown img{
-    position: relative;
+.mainDown img {
     margin-right: auto;
+    width: 27rem;
 }
 
-.portfolio{
-    padding-top: 15%;
+.portfolio {
+    padding-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +139,7 @@ main button a {
     width: 100%;
 }
 
-.portfolio h1{
+.portfolio h1 {
     font-size: 100px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -129,48 +147,270 @@ main button a {
     font-style: normal;
     padding-bottom: 5%;
 }
-.left{
+
+.left {
     width: 100%;
 }
 
-.left img{
+.left img {
     flex-direction: column;
     display: flex;
     margin-bottom: 15%;
+    width: 30rem;
 }
 
-.colunas{
+.colunas {
     display: flex;
     gap: 100px;
 }
 
-.right{
+.right {
     width: 100%;
 }
 
-.right img{
+.right img {
     flex-direction: column;
     display: flex;
-   margin-bottom: 15%;
-   
+    margin-bottom: 15%;
+    width: 30rem;
 }
 
-.about{
+.about {
     display: flex;
     align-items: center;
-    justify-content: start;
-   gap: 10%;
-   color: white;
-   
-}
-
-.space{
-    height: 70px;
-}
-
-.textAbout{
-    font-size: 40px;
-    width: 630px;
+    justify-content: center;
+    gap: 5%;
     color: white;
- 
+    display: flex;
+    font-size: 40px;
+    width: 100%;
+
+}
+
+
+.aboutImg img {
+    width: 28rem;
+}
+
+.aboutTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 15%;
+}
+
+.aboutTitle h1{
+    font-size:100px ;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    padding-bottom: 5%;
+}
+
+.space {
+    height: 5rem;
+}
+
+.textAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.200rem;
+    width: 37.5rem;
+    color: white;
+    line-height: 50px;
+
+}
+
+.testemunho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 20%;
+}
+
+.testemunho h1{
+    font-size:100px ;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.testemunho p{
+    font-size:22    px ;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 103px;
+}
+
+.testimonials-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 81.31px;
+    font-weight: 400;
+    color: white;
+}
+
+.testimonials-container p {
+    font-size: 1.375rem;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    height: 673px;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.cards h1 {
+    font-family: "Inter", sans-serif;
+    width: 379.37px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 101.52%;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.cards p {
+    font-size: 15px;
+    font-weight: 300;
+    width: 290.21px;
+    text-align: start;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    flex-direction: column;
+}
+
+.card article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+}
+
+.card article div {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding: 23px 23px;
+}
+
+.card button {
+    display: flex;
+    gap: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.column-card {
+    display: flex;
+    flex-direction: column;
+    width: 327.08px;
+    height: 100%;
+    background-color: #181818;
+}
+
+.column-card div {
+    display: flex;
+    padding: 17px 17px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+}
+
+.column-card h1 {
+    width: 90%;
+}
+
+.column-card p {
+    width: 220.54px;
+}
+
+.column-card button {
+    display: flex;
+    gap: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.testimonials-button {
+    width: 221.95px;
+    height: 77.8px;
+    border: solid 1.36px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.contact{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+form input{
+    background-color: transparent;
+    display: flex;
+    border: none;
+    border-bottom: 1.5px solid white;
+  flex-direction: column;
+  width: 40rem;
+  height: 60px;
+}
+
+label{
+    font-size: 30px;
+}
+
+textarea{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1.5px solid white;
+    background-color: transparent;
+  
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
