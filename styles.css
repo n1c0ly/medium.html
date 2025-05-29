@@ -236,6 +236,7 @@ main button a {
 
 .testemunho h1{
     font-size:100px ;
+    padding-bottom: 3%;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -377,13 +378,22 @@ main button a {
     cursor: pointer;
 }
 
+
 .contact{
+    padding-top: 25%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    gap: 5%;
+}
+
+.contact h1{
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 400;
 }
 
 form input{
@@ -394,9 +404,12 @@ form input{
   flex-direction: column;
   width: 40rem;
   height: 60px;
+  margin-bottom: 5%;
 }
 
 label{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     font-size: 30px;
 }
 
@@ -406,11 +419,63 @@ textarea{
     border: none;
     border-bottom: 1.5px solid white;
     background-color: transparent;
-  
+    width: 40rem;
+    height: 100px;
 }
 
-.form{
-    width: 100%;
+form{
+    width: 49%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+   
+}
+
+form button{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    height: 60px;
+    width: 170px;
+    border: none;
+}
+
+form button a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+
+
+footer{
+    padding-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+footer h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.finalFooter{
+    gap: 30px;
+  
+    display: flex;
+    flex-direction: row;
+    font-size:22px ;
+}
+
+.finalFooter a{
+    color: white;
+    padding-bottom: 100px;
 }
