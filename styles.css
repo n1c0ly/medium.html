@@ -92,6 +92,8 @@ main button {
     width: 260px;
     height: 72px;
     border: none;
+ margin-top: 60%;
+    position: absolute;
 }
 
 main button a {
@@ -113,7 +115,7 @@ main button a {
 
 .mainUp img {
     margin-left: auto;
-    width: 27rem;
+    width: 32rem;
 }
 
 .mainDown {
@@ -126,7 +128,8 @@ main button a {
 
 .mainDown img {
     margin-right: auto;
-    width: 27rem;
+    width: 32rem;
+    padding-bottom: 5%;
 }
 
 .portfolio {
