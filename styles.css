@@ -92,7 +92,7 @@ main button {
     width: 260px;
     height: 72px;
     border: none;
- margin-top: 60%;
+    margin-top: 60%;
     position: absolute;
 }
 
@@ -203,8 +203,8 @@ main button a {
     padding-top: 15%;
 }
 
-.aboutTitle h1{
-    font-size:100px ;
+.aboutTitle h1 {
+    font-size: 100px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -228,7 +228,7 @@ main button a {
 
 }
 
-.testemunho{
+.testemunho {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,8 +237,8 @@ main button a {
     padding-top: 20%;
 }
 
-.testemunho h1{
-    font-size:100px ;
+.testemunho h1 {
+    font-size: 100px;
     padding-bottom: 3%;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -246,8 +246,8 @@ main button a {
     font-style: normal;
 }
 
-.testemunho p{
-    font-size:22    px ;
+.testemunho p {
+    font-size: 22 px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -382,7 +382,7 @@ main button a {
 }
 
 
-.contact{
+.contact {
     padding-top: 25%;
     color: white;
     display: flex;
@@ -393,30 +393,30 @@ main button a {
     gap: 5%;
 }
 
-.contact h1{
+.contact h1 {
     font-family: "Playfair Display", serif;
     font-size: 70px;
     font-weight: 400;
 }
 
-form input{
+form input {
     background-color: transparent;
     display: flex;
     border: none;
     border-bottom: 1.5px solid white;
-  flex-direction: column;
-  width: 40rem;
-  height: 60px;
-  margin-bottom: 5%;
+    flex-direction: column;
+    width: 40rem;
+    height: 60px;
+    margin-bottom: 5%;
 }
 
-label{
+label {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 30px;
 }
 
-textarea{
+textarea {
     display: flex;
     flex-direction: column;
     border: none;
@@ -426,16 +426,16 @@ textarea{
     height: 100px;
 }
 
-form{
-    width: 43%;
+form {
+    width: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
 }
 
-form button{
+form button {
     margin-top: 10%;
     display: flex;
     align-items: center;
@@ -454,7 +454,7 @@ form button a {
 }
 
 
-footer{
+footer {
     padding-top: 30%;
     display: flex;
     align-items: center;
@@ -463,22 +463,22 @@ footer{
     color: white;
 }
 
-footer h1{
+footer h1 {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 22px;
     padding-bottom: 30px;
 }
 
-.finalFooter{
+.finalFooter {
     gap: 30px;
-  
+
     display: flex;
     flex-direction: row;
-    font-size:22px ;
+    font-size: 22px;
 }
 
-.finalFooter a{
+.finalFooter a {
     color: white;
     padding-bottom: 100px;
 }
